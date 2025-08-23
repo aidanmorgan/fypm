@@ -8,15 +8,15 @@ This repository provides the start of a proposal for a new system to support the
 
 # Overview of Protocol
 
-[Overview](overview.md)
+* [Overview](overview.md)
 
 # Agentic AI Exclusion Licence (AAEL)
 
-[Licence](aael-v0_1.md)
+* [Licence](aael-v0_1.md)
 
 # Foundation for the Fair Payment of Media (FYPM)
-[Webpage / Support](https://fairpaymentmedia.org/)
-[Principles](foundation.md)
+* [Webpage / Support / Mailing List](https://fairpaymentmedia.org/)
+* [Principles](foundation.md)
 
 
 # Technical Documentation
