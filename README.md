@@ -9,9 +9,11 @@
 # Foundation for the Fair Payment of Media (FYPM)
 [Overview](foundation.md)
 
+[Webpage / Support](https://fairpaymentmedia.org/)
+
 # Technical Documentation
 
-All documents are early stage DRAFT and require significant revision.
+All documents are early stage DRAFT and require significant revision and input from experts.
 
 * [RFC-CAP-001: Content Authenticity Protocol](rfcs/reputation.md)
 * [RFC-CAP-002: AI Agent Payment Distribution Protocol for Content Creators](rfcs/payment.md)
