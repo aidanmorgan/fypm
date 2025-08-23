@@ -19,18 +19,18 @@ Publishers initially captured 80-90% of advertising revenue. By 2010, intermedia
 ## 2.2 The Evolution of Web Content Monetization - The Platform Economy (2005-2020)
 Content monetization shifted from direct publisher relationships to platform-mediated models:
 
-YouTube Partner Program (2007): 55/45 revenue split, democratizing video monetization
-App Store Economy (2008): 70/30 model became industry standard
-Creator Economy Platforms (2013-2020): Patreon, Substack, OnlyFans enabled direct monetization
+* YouTube Partner Program (2007): 55/45 revenue split, democratizing video monetization
+* App Store Economy (2008): 70/30 model became industry standard
+* Creator Economy Platforms (2013-2020): Patreon, Substack, OnlyFans enabled direct monetization
 
 This era saw individual creators earn from $100 to millions annually, but remained dependent on platform algorithms and policies. Platforms commoditized content while aggregating demand, extracting 15-50% of value.
 
 ## 2.3  The Evolution of Web Content Monetization - The AI Training Gold Rush (2020-Present)
 A new dynamic emerged as AI companies began paying for training data:
 
-Reddit: $60 million annually from AI companies (2024)
-Shutterstock: $104 million in AI licensing revenue (2023)
-X/Twitter: Restricted API access, implemented tiered pricing
+* Reddit: $60 million annually from AI companies (2024)
+* Shutterstock: $104 million in AI licensing revenue (2023)
+* X/Twitter: Restricted API access, implemented tiered pricing
 
 Individual creators receive 0% of this value despite their content forming the foundation of AI capabilities.
 
@@ -38,10 +38,10 @@ Individual creators receive 0% of this value despite their content forming the f
 Just as low background steel—steel produced before 1945 free from radioactive contamination—becomes increasingly valuable for sensitive applications, human-generated content from before the AI era represents an irreplaceable resource.
 Post-2022 content increasingly contains AI-generated text, creating a recursive pollution problem:
 
-AI models trained on AI-generated content experience "model collapse"
-Quality degradation compounds with each generation
-Authentic human content becomes scarce and valuable
-No reliable method exists to identify pre-AI content at scale
+* AI models trained on AI-generated content experience "model collapse"
+* Quality degradation compounds with each generation
+* Authentic human content becomes scarce and valuable
+* No reliable method exists to identify pre-AI content at scale
 
 The internet faces a "content contamination" crisis analogous to atmospheric radiation: once AI-generated content proliferates, recovering pure human-generated training data becomes nearly impossible. Content created before 2022 represents the "low background" equivalent—increasingly rare and valuable for training robust AI systems.
 
@@ -56,17 +56,17 @@ Courts applying fair use doctrine to AI training are grappling with fundamental 
 
 The Content Authenticity Protocol consists of four integrated components:
 
-Legal Framework: The Agentic AI Exclusion License (AAEL)
-Detection Infrastructure: System for identifying agentic AI access to content and presenting a challenge
-Payment System: Algorand-based micropayment infrastructure for paying content producers
-Reputation System: Blockchain-verified content quality and authorship metrics
+* Legal Framework: The Agentic AI Exclusion License (AAEL)
+* Detection Infrastructure: System for identifying agentic AI access to content and presenting a challenge
+* Payment System: Algorand-based micropayment infrastructure for paying content producers
+* Reputation System: Blockchain-verified content quality and authorship metrics
 
 # 3.2 Economic Model
 The protocol enables four three tiers:
 
-Tier 0: Free human access and content indexing (e.g. web search)
-Tier 1: Micropayments ($0.001-0.01 per access) for AI syustems
-Tier 2: Bulk consumption model (negotiated pricing, based on member votes - TBD in the future)
+* Tier 0: Free human access and content indexing (e.g. web search)
+* Tier 1: Micropayments ($0.001-0.01 per access) for AI syustems
+* Tier 2: Bulk consumption model (negotiated pricing, based on member votes - TBD in the future)
 
 # 4. The Agentic AI Exclusion License (AAEL)
 
@@ -76,18 +76,18 @@ See [AAEL v0.1](aael-v0_1.md) for the licence
 ## 4.2 Legal Enforcement Mechanisms
 The AAEL creates multiple enforcement pathways:
 
-Copyright Infringement: Unauthorized AI training constitutes reproduction and derivative work creation
-Contract Breach: Access implies acceptance of license terms
-DMCA Anti-Circumvention: Bypassing detection systems violates Section 1201
-Unfair Competition: Commercial advantage from unlicensed training data
+* Copyright Infringement: Unauthorized AI training constitutes reproduction and derivative work creation
+* Contract Breach: Access implies acceptance of license terms
+* DMCA Anti-Circumvention: Bypassing detection systems violates Section 1201
+* Unfair Competition: Commercial advantage from unlicensed training data
 
 ## 4.3 Statutory Damage Framework
 The license establishes clear monetary penalties:
 
-Minimum $5,000 USD per content item per unauthorized access
-Treble damages for willful infringement
-Injunctive relief including model deletion/retraining
-Attorney's fees and costs
+* Minimum $5,000 USD per content item per unauthorized access
+* Treble damages for willful infringement
+* Injunctive relief including model deletion/retraining
+* Attorney's fees and costs
 
 # 5. The CAP Author Reputation System
 
@@ -106,7 +106,7 @@ See [CAP Identity System](rfcs/identity.md)
 See [CAP Detection System](rfcs/detection.md)
 
 
-# 8. Foundation for the Fair Payment of Media (FYPM)
+# 9. Foundation for the Fair Payment of Media (FYPM)
 
 The Foundation for the Fair Payment of Media (FYPM) is a not-for-profit entity that acts as the steward of the CAP system and provides the micropayment infrastructure that underpins the CAP system.
 
