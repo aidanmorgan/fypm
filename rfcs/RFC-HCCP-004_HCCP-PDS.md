@@ -28,7 +28,7 @@ HCCP-PDS aims to:
 - Enable real-time micropayments without intermediaries.
 - Guarantee the payment system is scalable to efficiently handle a high volume of low-value transactions without incurring prohibitive costs.
 - Provide a transparent and publicly auditable trail for all fund movements, from the initial payment to the final creator wallet.
-- Define a clear process for handling payment disputes, errors, and refunds in a decentralized manner.
+- Define a clear process for handling payment disputes, errors, and refunds in a decentralised manner.
 - Allow creators to define flexible payment distribution rules, such as splitting revenue between multiple authors or automatically allocating a portion of earnings to different wallets.
 
 ### 1.2 Requirements Language
@@ -40,7 +40,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
  Payment Collection and Access
 * PAY_001: When a detected AI agent requests content, the HCCP system shall apply the appropriate fixed fee based on content tier classification.
 * PAY_001a: [Future Version] The system shall support automated, machine-to-machine price negotiation protocols.
-* PAY_002: The initial fixed fees shall be determined by content tier: Standard ($0.001), Premium ($0.005), or Specialized ($0.01).
+* PAY_002: The initial fixed fees shall be determined by content tier: Standard ($0.001), Premium ($0.005), or Specialised ($0.01).
 * PAY_002a: [Future Version] Dynamic pricing shall be based on AI agent bids and floor prices determined by content quality rank and author reputation.
 * PAY_003: The payment process MUST conclude in real-time without human intervention.
 * PAY_004: When a price is agreed upon and the corresponding payment is received, the HCCP system shall issue a cryptographic Access Token that grants the AI agent temporary access to the content.
@@ -57,18 +57,18 @@ Block-Based Distribution
 
 ## Future Optionality: Dynamic Pricing and Machine-to-Machine Negotiation
 
-While the initial implementation uses fixed-fee pricing for simplicity and rapid deployment, the protocol is designed to evolve toward dynamic, automated pricing mechanisms. Future versions will implement:
+Whilst the initial implementation uses fixed-fee pricing for simplicity and rapid deployment, the protocol is designed to evolve toward dynamic, automated pricing mechanisms. Future versions will implement:
 
 - **Real-time Auction System**: AI agents will bid for content access based on their assessment of utility value
 - **Reputation-Based Floor Pricing**: Minimum prices determined by author reputation and content quality scores
 - **Demand-Responsive Pricing**: Prices that adjust based on access patterns and market demand
-- **Bulk Access Negotiations**: Automated protocols for high-volume consumers to negotiate favorable rates
+- **Bulk Access Negotiations**: Automated protocols for high-volume consumers to negotiate favourable rates
 
 This transition will occur gradually as the network matures and market dynamics become clearer through initial fixed-fee operations.
 
-## Future Optionality: Full Decentralized Governance (DAO)
+## Future Optionality: Full Decentralised Governance (DAO)
 
-The protocol is designed to be stewarded by the FYPM foundation initially, but its ultimate state is one of full decentralization. A major future step is the transition to a Decentralized Autonomous Organization (DAO) where all key economic parameters are controlled by the community of HCCP token holders. This would include the ability to vote on the treasury fee, validator rewards, the fixed fee tiers (and eventually dynamic pricing formulas), and the ratification of bulk-access agreements. This transition to a DAO would fulfill the protocol's promise of becoming a true public utility, owned and operated by the creators and users it serves, ensuring that its evolution is always aligned with the interests of its community.
+The protocol is designed to be stewarded by the FYPM foundation initially, but its ultimate state is one of full decentralisation. A major future step is the transition to a Decentralised Autonomous Organisation (DAO) where all key economic parameters are controlled by the community of HCCP token holders. This would include the ability to vote on the treasury fee, validator rewards, the fixed fee tiers (and eventually dynamic pricing formulas), and the ratification of bulk-access agreements. This transition to a DAO would fulfil the protocol's promise of becoming a true public utility, owned and operated by the creators and users it serves, ensuring that its evolution is always aligned with the interests of its community.
 
 
 

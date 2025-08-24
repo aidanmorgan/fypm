@@ -2,12 +2,19 @@
 
 This repository contains a proposal for the **Human Content Compensation Protocol (HCCP)**, a new open protocol designed to address a fundamental challenge of the modern internet: how to fairly compensate human creators for the value their work provides to Artificial Intelligence systems, especially in a world where agentic-AI systems are able to query search engines and load content dynamically to answer user questions.
 
-HCCP proposes a new way forward by combining a legal framework with a decentralized technical system to create a new, equitable economic layer for the internet.
+As AI agents and Large Language Models (LLMs) consume vast amounts of online content for training and data analysis, the creators of that content are seldom compensated. HCCP proposes a new way forward by combining a legal framework with a decentralised technical system to create a new, equitable economic layer for the internet.
 
+We are NOT anti-AI doomers, in fact, quite the opposite. We believe that AI has an incredible potential to advance humanity, what we are against is all reward only being in the hands of a few.
 
-We are NOT anti-AI doomers, in fact, quite the opposite. We believe that AI has an incredible potential to advance humanity, what we are against is all compensation only being in the hands of a few.
+The core principle is simple: **human access to content remains free, while AI systems should pay**.
 
-The core principle is simple: **human access to content remains the same, while AI systems are required to pay for access.**
+### Free content for humans?
+
+Content creators already have a range of options for monetising their content, this proposal has no intention of changing any of this. 
+
+The AAEL is intended to be a purely additive licence, it doesn't grant any additional rights or allowances, it acts as a "wrapper" licence on top of content creator's already existing licencing. 
+
+The HCCP is not intended to be, nor should it ever be, a system for monetising content when it is consumed by humans.
 
 
 
@@ -17,7 +24,7 @@ The proposal is detailed across several key documents that outline the philosoph
 
 *   The **[Project Overview](overview.md)** provides an introduction to the protocol, its core components, and the economic and legal background that makes this system necessary.
 
-*   The **[Agentic AI Exclusion License (AAEL)](aael-v0_1.md)** is the legal licence of the protocol. It is a new license that grants broad permissions for human use while explicitly requiring payment for any use by an AI system.
+*   The **[Agentic AI Exclusion Licence (AAEL)](aael-v0_1.md)** is the legal licence of the protocol. It is a new licence that grants broad permissions for human use whilst explicitly requiring payment for any use by an AI system.
 
 *   The **[Foundation for the Fair Payment of Media (FYPM)](foundation.md)** document outlines the principles and governance structure for the non-profit entity that will act as a neutral steward for the protocol.
 
@@ -28,9 +35,9 @@ The proposal is detailed across several key documents that outline the philosoph
 
 The technical implementation of the protocol is described in a series of interconnected Request for Comments (RFC) documents. These are early-stage drafts that outline the core systems, these documents are not technical in nature, but explain the core concepts of the systems and also outline a roadmap for how these systems may evolve over time.
 
-*   **[RFC-HCCP-001: Human Content Compensation Protocol Identity System (HCCP-IDS)](rfcs/identity.md)**: Defines the system for how authors can establish a secure, decentralized identity and cryptographically sign their content.
+*   **[RFC-HCCP-001: Human Content Compensation Protocol Identity System (HCCP-IDS)](rfcs/identity.md)**: Defines the system for how authors can establish a secure, decentralised identity and cryptographically sign their content.
 
-*   **[RFC-HCCP-002: Human Content Compensation Protocol Reputation System (HCCP-REP)](rfcs/RFC-HCCP-002_HCCP-REP.md)**: Describes the adversarial system for attesting to content authenticity and establishing a trust score for participants, where AI agents are incentivized to challenge non-authentic content and AI vendors are incetivised to provide quality signals.
+*   **[RFC-HCCP-002: Human Content Compensation Protocol Reputation System (HCCP-REP)](rfcs/RFC-HCCP-002_HCCP-REP.md)**: Describes the adversarial system for attesting to content authenticity and establishing a trust score for participants, where AI agents are incentivised to challenge non-authentic content and AI vendors are incentivised to provide quality signals.
 
 *   **[RFC-HCCP-003: Human Content Compensation Protocol AI Agent Detection System (HCCP-AID)](rfcs/detection.md)**: Outlines distinguishing between human users and AI agents, and for initiating a payment challenge.
 
