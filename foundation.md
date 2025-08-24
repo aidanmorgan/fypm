@@ -21,7 +21,7 @@ The economic stakes are equally high. The rise of generative AI is causing a pro
 The current paradigm of litigation is a reactive and inadequate response to a problem of unprecedented scale and technical complexity. The core issue is not a failure of law in the abstract, but the absence of technical infrastructure capable of managing consent and licensing at the scale of the internet. FYPM provides a proactive, market-based solution. By engineering a technical framework for granular, automated, and consent-based licensing, the Foundation offers a clear and lawful pathway that moves beyond the courtroom. This system provides AI developers with legal certainty and ethical access to high-quality training data, while establishing a direct and reliable revenue stream for creators. It transforms an adversarial relationship into a mutually agreeable one, creating the conditions for a new, more efficient legal and economic future to emerge.
 
 ### 1.3 Principle 3: The Imperative of Open and Decentralized Systems
-To ensure fairness, transparency, and resilience, the infrastructure for tracking and compensating content must be open and decentralized. A centralized system, controlled by a single corporate or governmental entity, would inevitably replicate the power imbalances and gatekeeping dynamics of the Web2 era, creating a single point of failure and a be at the whim of vested interests.
+To ensure fairness, transparency, and resilience, the infrastructure for tracking and compensating content must be open and decentralized. A centralized system, controlled by a single corporate or governmental entity, would inevitably replicate the power imbalances and gatekeeping dynamics of the Web2 era, creating a single point of of failure and a be at the whim of vested interests.
 
 The principles of decentralized finance (DeFi) and Web3 technologies offer a superior architectural model for this future. By leveraging technologies like blockchain, these systems can remove costly intermediaries, enhance security through cryptographic immutability, and provide radical transparency in all transactions. When applied to the creator economy, this model is transformative. It empowers creators with direct ownership, greater control, and true financial independence over their work. It ensures fair compensation by programmatically enforcing royalty agreements and minimizing the fees extracted by platforms.
 
@@ -43,7 +43,7 @@ The Foundation is incorporated as a non-profit organization, a structure chosen 
 
 The Foundation's financial principles are : all revenue generated—whether from membership dues, nominal transaction fees, or philanthropic grants—will be used exclusively to operate and advance the Foundation's services. This includes maintaining the decentralized infrastructure, funding core staff, supporting legal defense for the ecosystem and on behalf of content creators who's ownership has been violated, and developing community support programs. This non-profit commitment stands in contrast to for-profit or hybrid models, ensuring that the Foundation's primary beneficiary is, and always will be, the global community of creators and the health of the digital commons.
 
-## 3.2 A Collaborative Governance Model
+## 2.2 A Collaborative Governance Model
 A technical system designed to serve a diverse global community cannot be governed by a top-down, hierarchical structure. The evolving distrust between content creators and AI developers requires a governance model that is demonstrably neutral and collaborative. 
 
 To achieve this, the Foundation adopts a meritocratic governance model heavily inspired by the long and successful history of the Apache Software Foundation (ASF). This model, often described as a "do-ocracy," ensures that influence is earned through contribution, not granted by title or financial stake. Key roles within this structure include:
@@ -60,12 +60,12 @@ Board of Directors: The Board provides corporate and financial oversight for the
 
 All technical decisions within the PMCs are made through a collaborative, consensus-based process. This ensures that the evolution of the FYPM protocols is the product of the collective expertise of the community, fostering a resilient and innovative ecosystem that is independent of undue commercial influence.
 
-## 3.3 Intellectual Property
+## 2.3 Intellectual Property
 To ensure the long-term integrity and interoperability of FYPM, the Foundation will act as the steward of the intellectual property that defines its core protocols. All individuals who contribute code or technical specifications to the project will be required to sign a Contributor License Agreement (CLA), a standard practice in major open-source foundations.
 
 The CLA grants the Foundation a license to the contributed IP, with the Foundation retaining the ultimate rights over the collective work. This policy is not intended to claim ownership of individual contributions for commercial exploitation, but to serve a critical protective function. By holding the core IP, the Foundation can prevent the fragmentation of its standards. It ensures that no single company or entity can "fork" the protocol and create a competing, incompatible system that would undermine the network effects and universality of the public commons. This stewardship model, successfully employed by organizations like the Linux Foundation, guarantees that the FYPM protocols remain a single, unified, and open standard for the benefit of all. The protocols themselves will be made available to the public under a permissive open-source license to encourage adoption and integration.
 
-# Helping Drive the Creative Economy
+# 3. Helping Drive the Creative Economy
 The emergence of generative artificial intelligence has presented the global digital ecosystem with a profound choice: between a future where human creativity is devalued and its outputs are strip-mined without consent or compensation, and a future where technology amplifies innate capacity for creation. The Foundation for the Fair Payment of Media is founded on the conviction that the latter future is not only possible, but essential.
 
 The FYPM offers a comprehensive solution—an integrated architecture for provenance, rights, and compensation, stewarded by a neutral, non-profit, and community-governed foundation. This is not a proposal to halt technological progress, but to place it on a more sustainable and ethical footing. It is a framework designed to transform an ambiguous conflict into a collaboration.

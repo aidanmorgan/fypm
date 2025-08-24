@@ -1,33 +1,46 @@
-This repository provides the start of a proposal for a new system to support the monetisation of content created by humans in the age of the agentic web. It cosnsits of:
+# The Human Content Compensation Protocol
 
-* a licence that forbids the use of content unless a payment has been made to access (via a time-limited token) 
-* a mechanism for a content producer to prove that they created the content and it has not been produced by generative ai
-* a payment protocol that distributes payments made for access to content by agentic-ai's based on the reputation of content producers
-* a system for detecting an agentic-ai is attempting to access content and blocking access until payment is made
-* a not-for-profit foundation that owns the protocols and provides an implementation of the system that is not affiliated with any one organisation
+This repository contains a proposal for the **Human Content Compensation Protocol (HCCP)**, a new open protocol designed to address a fundamental challenge of the modern internet: how to fairly compensate human creators for the value their work provides to Artificial Intelligence systems, especially in a world where agentic-AI systems are able to query search engines and load content dynamically to answer user questions.
 
-# Overview of Protocol
+As AI agents and Large Language Models (LLMs) consume vast amounts of online content for training and data analysis, the creators of that content are seldom compensated. HCCP proposes a new way forward by combining a legal framework with a decentralized technical system to create a new, equitable economic layer for the internet.
 
-* [Overview](overview.md)
-
-# Agentic AI Exclusion Licence (AAEL)
-
-* [Licence](aael-v0_1.md)
-
-# Foundation for the Fair Payment of Media (FYPM)
-* [Webpage / Support / Mailing List](https://fairpaymentmedia.org/)
-* [Principles](foundation.md)
+The core principle is simple: **human access to content remains free, while AI systems are required to pay for access.**
 
 
-# Technical Documentation
+## The Proposal
 
-All documents are early stage DRAFT and require significant revision and input from experts. The ask is for people who are interested in contributing to open issues and discuss as a community how different aspects of the protocol should be implemented.
+The proposal is detailed across several key documents that outline the philosophy, legal framework, and governance of the system.
 
-* [RFC-CAP-001: Content Authenticity Protocol](rfcs/reputation.md)
-* [RFC-CAP-002: AI Agent Payment Distribution Protocol for Content Creators](rfcs/payment.md)
-* [RFC-CAP-003: Hierarchical Identity Attestation and Content Signing Protocol](rfcs/identity.md)
-* [RFC-CAP-004: Agentic AI Detection Protocol](rfcs/detection.md)
+*   The **[Project Overview](overview.md)** provides an introduction to the protocol, its core components, and the economic and legal background that makes this system necessary.
 
-# Support Needed
+*   The **[Agentic AI Exclusion License (AAEL)](aael-v0_1.md)** is the legal licence of the protocol. It is a new license that grants broad permissions for human use while explicitly requiring payment for any use by an AI system.
 
-* Reviews of content, filling in the (numerous) TBD's in the documents
+*   The **[Foundation for the Fair Payment of Media (FYPM)](foundation.md)** document outlines the principles and governance structure for the non-profit entity that will act as a neutral steward for the protocol.
+
+*   The **[Economic Principles](economics.md)** document explains the financial model of the protocol, including dynamic micropayments, pooled settlement, and the future vision for DAO-governed bulk access agreements.
+
+
+## Technical Specification
+
+The technical implementation of the protocol is described in a series of interconnected Request for Comments (RFC) documents. These are early-stage drafts that outline the core systems, these documents are not technical in nature, but explain the core concepts of the systems and also outline a roadmap for how these systems may evolve over time.
+
+*   **[RFC-HCCP-001: Human Content Compensation Protocol Identity System (HCCP-IDS)](rfcs/identity.md)**: Defines the system for how authors can establish a secure, decentralized identity and cryptographically sign their content.
+
+*   **[RFC-HCCP-002: Human Content Compensation Protocol Reputation System (HCCP-REP)](rfcs/RFC-HCCP-002_HCCP-REP.md)**: Describes the adversarial system for attesting to content authenticity and establishing a trust score for participants, where AI agents are incentivized to challenge non-authentic content and AI vendors are incetivised to provide quality signals.
+
+*   **[RFC-HCCP-003: Human Content Compensation Protocol AI Agent Detection System (HCCP-AID)](rfcs/detection.md)**: Outlines distinguishing between human users and AI agents, and for initiating a payment challenge.
+
+*   **[RFC-HCCP-004: Human Content Compensation Protocol Payment Distribution System (HCCP-PDS)](rfcs/RFC-HCCP-004_HCCP-PDS.md)**: Details the concepts for collecting payments from AI agents and distributing them fairly to creators based on reputation and content access.
+
+
+## This is an Early-Stage Proposal: We Need Your Help
+
+It is critical to understand that this project is in its infancy. The documents in this repository represent a starting point — a very incomplete proposal intended to spark conversation and collaboration.
+
+There are numerous open questions, missing details, and complex problems that have yet to be solved. The success of an open, foundational protocol like this depends on the effort of a dedicated community.
+
+We are actively seeking support from developers, lawyers, economists, content creators, and AI researchers who are interested in helping us build a more sustainable and equitable future. If you are interested in contributing, please start by reviewing the documents, raising issues, and joining the discussion.
+
+You can also join our mailing list at https://www.fairpaymentmedia.org/ to stay updated on our progress.
+
+For direct inquiries, please contact us at [hello@fairpaymentmedia.org](mailto:hello@fairpaymentmedia.org).

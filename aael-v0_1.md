@@ -24,7 +24,7 @@ NOTICE: This content is protected under the Agentic AI Exclusion License.
 
 3. PROHIBITED USES
    The following uses are strictly prohibited without explicit written 
-   permission and payment through the Content Authenticity Protocol:
+   permission and payment through the Human Content Compensation Protocol:
    
    a) Training, fine-tuning, or optimizing any AI System using this content
    b) Processing this content through any LLM or generative AI model
@@ -50,7 +50,7 @@ NOTICE: This content is protected under the Agentic AI Exclusion License.
    - Consequential damages from model contamination requiring retraining
    
 6. PAYMENT MECHANISM
-   Authorized AI access requires payment through the Content Authenticity 
+   Authorized AI access requires payment through the Human Content Compensation 
    Protocol at rates determined by content reputation scores and market dynamics.
    
 7. DETECTION AND VERIFICATION
