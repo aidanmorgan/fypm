@@ -49,6 +49,15 @@ The HCCP-AID system is a critical piece of infrastructure that will be developed
 
 In both models, the core detection logic—the rulesets, behavioral heuristics, and client fingerprints—will be continuously updated by the FYPM as new AI agents and browsing techniques emerge. These updated rulesets will be distributed to all deployed proxy instances (both self-hosted and managed) to ensure the entire network benefits from the latest detection capabilities.
 
+### 3.2 Non-blockchain Access
+
+The FYPM should also operate API's for retrieving information from the services to allow other systems to integrate with the HCCP without needing to operate on the algorand blockchain. These API's will be used to perform tasks like (but not limited to):
+* Retrieve the decentralised identity of an author based on other criteria (e.g. domain, URL, email address)
+* Retrieve an author's reputation
+* Retrieve the current quality score for a URI
+
+These API's should not be used to "write back" to the core HCCP, they should only exist to be able to conveniently get information from the HCCP. These API's may be rate limited (if abused), but should idealy not require access keys or accounts to be able to access.
+
 
 ## 4. Progressive Detection Bootstrap
 
