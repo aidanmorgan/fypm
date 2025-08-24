@@ -2,9 +2,13 @@
 
 This repository contains a proposal for the **Human Content Compensation Protocol (HCCP)**, a new open protocol designed to address a fundamental challenge of the modern internet: how to fairly compensate human creators for the value their work provides to Artificial Intelligence systems, especially in a world where agentic-AI systems are able to query search engines and load content dynamically to answer user questions.
 
-As AI agents and Large Language Models (LLMs) consume vast amounts of online content for training and data analysis, the creators of that content are seldom compensated. HCCP proposes a new way forward by combining a legal framework with a decentralized technical system to create a new, equitable economic layer for the internet.
+HCCP proposes a new way forward by combining a legal framework with a decentralized technical system to create a new, equitable economic layer for the internet.
 
-The core principle is simple: **human access to content remains free, while AI systems are required to pay for access.**
+
+We are NOT anti-AI doomers, in fact, quite the opposite. We believe that AI has an incredible potential to advance humanity, what we are against is all compensation only being in the hands of a few.
+
+The core principle is simple: **human access to content remains the same, while AI systems are required to pay for access.**
+
 
 
 ## The Proposal
