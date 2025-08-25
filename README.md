@@ -17,8 +17,7 @@ The AAEL is intended to be a purely additive licence, it doesn't grant any addit
 The HCCP is not intended to be, nor should it ever be, a system for monetising content when it is consumed by humans.
 
 
-
-## The Proposal
+# The Proposal
 
 The proposal is detailed across several key documents that outline the philosophy, legal framework, and governance of the system.
 
@@ -31,7 +30,7 @@ The proposal is detailed across several key documents that outline the philosoph
 *   The **[Economic Principles](economics.md)** document explains the financial model of the protocol, including dynamic micropayments, pooled settlement, and the future vision for DAO-governed bulk access agreements.
 
 
-## Technical Specification
+# Technical Specification
 
 The technical implementation of the protocol is described in a series of interconnected Request for Comments (RFC) documents. These are early-stage drafts that outline the core systems, these documents are not technical in nature, but explain the core concepts of the systems and also outline a roadmap for how these systems may evolve over time.
 
@@ -44,7 +43,137 @@ The technical implementation of the protocol is described in a series of interco
 *   **[RFC-HCCP-004: Human Content Compensation Protocol Payment Distribution System (HCCP-PDS)](rfcs/RFC-HCCP-004_HCCP-PDS.md)**: Details the concepts for collecting payments from AI agents and distributing them fairly to creators based on reputation and content access.
 
 
-## This is an Early-Stage Proposal: We Need Your Help
+# FAQ
+
+## What is HCCP in one sentence?
+A protocol that keeps human access free while requiring AI systems to pay creators for use of their content, enforced by a legal license (AAEL) plus identity, reputation, agent-detection, and payment-distribution components. 
+
+## Is this a paywall for humans?
+No. Humans stay free; only AI agents are charged under the AAEL terms. 
+
+## What is AAEL?
+The Agentic AI Exclusion License: a wrapper license that preserves human access while explicitly requiring payment from AI systems. It’s the legal backbone of the protocol. 
+
+## What are the core technical components?
+Four systems, each specified in an RFC: Identity & Signing (HCCP-IDS), Reputation (HCCP-REP), Agent Identification (HCCP-AID), and Payment Distribution (HCCP-PDS). 
+
+## How does enforcement work in practice?
+Sites declare AAEL and expose an AID “pay-or-prove” handshake. Compliant agents authenticate and log usage; non-compliant access is detectable and creates a clear contractual boundary. (Design intent aligned with AID+AAEL described in the repo.) 
+
+## Won’t AI detection be a cat-and-mouse game?
+Yes, which is why detection is paired with economics and governance: multi-signal agent checks + a reputation layer + pooled settlements and audits. The goal isn’t perfect detection; it’s a system where cheating is riskier and costlier than compliance. (See AID/REP/PDS roles.) 
+
+## How do creators get paid?
+Usage events from compliant agents flow into pooled settlements, then payouts are allocated to creators using access + reputation signals as described in the economic model. 
+
+## What prevents creator fraud and content farms?
+Signed content (IDS) proves authorship, while REP rewards valid challenges and down-weights low-trust actors. In future iterations, staking/curator tiers and graph-based detection further limit sybils. 
+
+## How much data about humans is collected?
+The protocol’s purpose is to bill agents, not track people. The design centers on minimal, pseudonymous proofs for settlements and governance limits on telemetry.
+
+## What about AI agents that route through human browsers or proxies?
+Early versions rely on behavior/rate signals and challenge tokens; later versions incorporate browser-assisted human proofs and shared challenge receipts across sites to raise the cost of proxying. 
+
+## Does this work for static sites, APIs, and feeds?
+Yes. IDS signatures can live in headers/sitemaps/feeds; AID middleware can sit at the origin, edge, or API gateway. 
+
+## How are prices set?
+The economics doc outlines pooled micropayments now and a path to programmatic bulk contracts and audited revenue shares as adoption grows. 
+
+## What happens if an agent refuses to pay?
+They’re outside the license terms. The server can log and throttle/deny automated access; the AAEL boundary supports contractual remedies. 
+
+## Will this fragment the open web?
+No. The design is an economic layer for AI, not a human paywall. It aims to create a clean-supply channel that search/assistant vendors prefer because rights and costs are clear. 
+
+## Is this ready for production?
+Not yet. The repo is explicit that this is an early-stage proposal and is seeking collaborators across law, economics, engineering, and creator communities. 
+
+## Where do I start if I want to implement or contribute?
+Read the Overview, AAEL, Economics, and the four RFCs (IDS/REP/AID/PDS), then open issues or PRs. There’s also a public site/mailing list linked below.  
+
+# Evolution of the Protocol
+
+## Identity & Signing (HCCP-IDS)
+
+```mermaid
+graph LR
+    subgraph Gen0 [draft]
+        Z0["Content signed ad-hoc<br/>(no registry, rotation manual)"]
+    end
+    subgraph Gen1 [MVP]
+        Z1["Signing kit + header/sitemap tags<br/>Creator keypairs; basic rotation"]
+        Z1a["Org multi-author mapping (local)"]
+    end
+    subgraph Gen2 [scaled]
+        Z2["Cross-site identity registry<br/>revocation/rotation feeds"]
+        Z2a["Org multisig + role keys"]
+        Z2b["Key transparency log"]
+    end
+    Gen0 --> Gen1 --> Gen2
+```
+
+## Reputation (HCCP-REP)
+
+```mermaid
+graph LR
+    subgraph Gen0 [draft]
+        R0["Simple attestations/ manual review"]
+    end
+    subgraph Gen1 [MVP]
+        R1["Challenge/response market<br/>rewards for catching fraud"]
+        R1a["Basic trust score per creator/agent"]
+    end
+    subgraph Gen2 [scaled]
+        R2["Staking + slashing curator tiers"]
+        R2a["Graph-based farm detection"]
+        R2b["Cross-site signal sharing"]
+    end
+    Gen0 --> Gen1 --> Gen2
+```
+
+## Agent Identification (HCCP-AID)
+
+```mermaid
+graph LR
+    subgraph Gen0 [draft]
+        A0["Robots-like declaration<br/>(no enforcement)"]
+    end
+    subgraph Gen1 [MVP]
+        A1["Pay-or-prove handshake endpoint"]
+        A1a["Behavioral + headless hints"]
+        A1b["Challenge tokens; human bypass"]
+    end
+    subgraph Gen2 [scaled]
+        A2["Browser human proofs<br/>(WebAuthn/passkeys)"]
+        A2a["Shared challenge receipts across sites"]
+        A2b["Anomaly correlation & relay resistance"]
+    end
+    Gen0 --> Gen1 --> Gen2
+```
+
+## Payments & Distribution (HCCP-PDS)
+
+```mermaid
+graph LR
+    subgraph Gen0 [draft]
+        P0["Conceptual pool split<br/>manual settlement"]
+    end
+    subgraph Gen1 [MVP]
+        P1["Event ledger + weekly pooling"]
+        P1a["Simple price bands"]
+        P1b["Creator wallet payouts"]
+    end
+    subgraph Gen2 [scaled]
+        P2["Programmatic bulk contracts<br/>(DAO-like clearing)"]
+        P2a["Auditable revenue share"]
+        P2b["Regional routing & residency"]
+    end
+    Gen0 --> Gen1 --> Gen2
+```
+
+# This is an Early-Stage Proposal: We Need Your Help
 
 It is critical to understand that this project is in its infancy. The documents in this repository represent a starting point — a very incomplete proposal intended to spark conversation and collaboration.
 
